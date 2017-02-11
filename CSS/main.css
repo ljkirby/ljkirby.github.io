@@ -13,7 +13,7 @@ body {
   right:150px;
   top:50px;
   font-family: 'Raleway Thin', Arial, Helvetica, sans-serif;
-  background-image:url("../Images/practice3.JPG");
+  background-image:url('../Images/practice3.JPG');
   background-attachment:fixed;
   background-repeat:no-repeat;
   background-position:right bottom;
