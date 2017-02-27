@@ -1,79 +1,138 @@
-
-@font-face{
-  font-family: 'Raleway Thin';
-  src:url("../Fonts/Raleway_Thin.otf");
+@font-face {
+    font-family: 'Raleway Thin';
+    src: url("../Fonts/Raleway_Thin.otf");
 }
 
+.invisible-toggle {
+    display: none;
+}
 
 body {
-  color:black;
-  background-color:black;
-  text-align:center;
-  position:relative;
-  right:150px;
-  top:50px;
-  font-family: 'Raleway Thin', Arial, Helvetica, sans-serif;
-  background-image:url('../Images/practice3.jpg');
-  background-attachment:fixed;
-  background-repeat:no-repeat;
-  background-position:right bottom;
-  background-size:cover;
+    color: black;
+    background-color: white;
+    overflow: hidden;
+    /*text style*/
+    text-align: center;
+    position: relative;
+    top: 170px;
+    right: 50px;
+    /*font style*/
+    font-family: 'Raleway Thin', Arial, Helvetica, sans-serif;
+    /*background image*/
+    background-image: url('../Images/girlWithUmbrella_edit_cropped.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
 }
-	
-  nav h4{
-	  padding-left:10px;
-	  padding-right:10px;
-	  display:inline;
-  }
-  
-  nav a:link{
-	color:black; 
-	text-decoration:none;
-  }
-  
-  nav a:visited{
-	  color:grey;
-  }
-  
-  nav a:hover{
-	  color:grey;
-	  text-decoration:underline;
-  }
-  
-  h1{
-	font-size:600%;
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
 }
-  
-  .contact h3{
-	  display:inline;
-	  padding-left:20px;
-	  padding-right:20px;
-  }
-  
-  .contact a:link{
-	color:black; 
-	text-decoration:none;
-  }
-  
-  .contact a:hover{
-	  color:white;
-  }
-  
-  .contact a:visited{
-	  color:black;
-  }
-  
-  .footer h5{
-	  display:inline;
-	  padding-left:20px;
-	  padding-right:20px;
-  }
-  
-  .footer a:link{
-	  color:black;
-	  text-decoration:none;
-  }
-  
-  .footer a:visited{
-	  color:grey;
-  }
+
+nav ul li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 110%;
+    font-weight: 900;
+}
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+nav a:hover {
+    color: #F32631;
+    top: 1px;
+}
+
+nav a:active {
+    top: 2px;
+}
+
+nav a:visited {
+    color: black;
+}
+
+.name h1 {
+    font-size: 700%;
+}
+
+.description {
+    font-size: 120%;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 40px;
+}
+
+#fadingDescription {
+    font-size: 200%;
+    font-color: darkgray;
+}
+
+.contact ul li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 20px;
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+    font-size: 120%;
+}
+
+.contact a:link {
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.contact a:visited {
+    color: black;
+}
+
+.contact a:hover {
+    color: #F32631;
+    text-decoration: none;
+    top: 1px;
+}
+
+footer {
+    position: relative;
+    right: 30px;
+}
+
+footer ul li {
+    padding-left: 3px;
+    padding-right: 10px;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+footer a:link {
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+footer a:visited {
+    color: black;
+}
+
+footer a:hover {
+    color: #F32631;
+    text-decoration: none;
+}
+
+footer a:active {
+    top: 1px;
+}
+
+footer a:visited:hover {
+    color: #F32631;
+}

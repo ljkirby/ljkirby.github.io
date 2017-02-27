@@ -2,41 +2,51 @@
 
 <head>
 
-	<title>Lisa Kirby</title>
-	<meta charset="utf-8">
-	<!--Main CSS code-->
-	<link rel="stylesheet" type="text/css" href="CSS/main.css"/>
+    <title>Lisa Kirby</title>
+    <meta charset="utf-8">
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="JavaScript/homepage.js"></script>
+
+    <!--Main CSS code-->
+    <link rel="stylesheet" type="text/css" href="CSS/main.css" />
 
 </head>
 
-<body>
-<!--Black and white picture in background, name in bold white caps text, h2s in normal white caps text-->
-<!--Thin white outline going around screen-->
 
-	<nav>
-		<h4><a href = "http://ljkirby.com/about">About</a></h4>
-		<h4><a href = "http://ljkirby.com/projects">My Work</a></h4>
-		<h4><a href = "http://ljkirby.com/blog">Blog</a></h4>
-	</nav>
-	
-	<div class="description">
-		<h1>Lisa Kirby</h1>
-		<h2>Software Developer</h2>
-		<h2>UBC Computer Engineering Student</h2>
-		<h2>Seeking an internship for Summer 2k17 </h2>
-	</div>
-	
-	<div class="contact">
-		<h3>CONTACT</h3>
-		<h3><a href="Docs/resume.pdf">RESUME</a></h3>
-	</div>
-	
-	<footer>
-		<h5>lisakirby@alumni.ubc.ca</h5>
-		<h5><a href = "https://github.com/ljkirby7">Github</a></h5>
-		<h5><a href = "https://www.linkedin.com/in/lisa-kirby/">LinkedIn</a></h5>
-	</footer>
-  
+<body>
+    <nav>
+        <ul>
+            <li><strong><a href = "http://ljkirby.com/about">About</a><strong></li>
+            <li><strong><a href="Docs/resume.pdf" target="_blank">Resume</a></strong></li>
+            <li><strong><a href = "http://ljkirby.com/projects">Projects</a></strong></li>
+            <li><strong><a href = "http://ljkirby.com/blog">Blog</a></strong></li>
+            <li><strong><a href="http://ljkirby.com/contact">Contact</a></strong></li>
+        </ul>
+    </nav>
+
+    <div class="name">
+        <h1>Lisa Kirby</h1>
+    </div>
+
+    <div class="description">
+        <h2 id='fadingDescription'></h2>
+    </div>
+
+    <div class="contact">
+        <ul>
+
+        </ul>
+    </div>
+
+    <footer class="invisible-toggle">
+        <ul>
+            <li><a href="https://github.com/ljkirby7">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/lisa-kirby/">LinkedIn</a></li>
+            <li>lisakirby@alumni.ubc.ca</li>
+        </ul>
+    </footer>
 </body>
 
 </html>
