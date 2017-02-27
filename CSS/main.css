@@ -108,3 +108,37 @@ footer a:active {
 footer a:visited:hover {
     color: #F32631;
 }
+
+
+/*"About Me" CSS*/
+
+#About {
+    position: relative;
+    width: 800px;
+    padding-left: 100px;
+    bottom: 200px;
+    overflow: hidden;
+    background-image: url('../Images/practice3.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
+
+#About h1 {
+    position: relative;
+    right: 100px;
+    bottom: 85px;
+}
+
+#About p {
+    position: relative;
+    right: 100px;
+    bottom: 180px;
+    font-size: 150%;
+    padding: 100px;
+}
+
+.red {
+    color: #F32631;
+}
