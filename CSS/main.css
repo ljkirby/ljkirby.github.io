@@ -3,10 +3,6 @@
     src: url("../Fonts/Raleway_Thin.otf");
 }
 
-.invisible-toggle {
-    display: none;
-}
-
 body {
     color: black;
     background-color: white;
@@ -47,6 +43,10 @@ nav a:link {
     position: relative;
 }
 
+nav a:visited {
+    color: black;
+}
+
 nav a:hover {
     color: #F32631;
     top: 1px;
@@ -54,10 +54,6 @@ nav a:hover {
 
 nav a:active {
     top: 2px;
-}
-
-nav a:visited {
-    color: black;
 }
 
 .name h1 {
@@ -76,35 +72,11 @@ nav a:visited {
     font-color: darkgray;
 }
 
-.contact ul li {
-    list-style-type: none;
-    display: inline-flex;
-    margin-left: 20px;
-    position: relative;
-    bottom: 40px;
-    right: 30px;
-    font-size: 120%;
-}
-
-.contact a:link {
-    color: black;
-    text-decoration: none;
-    position: relative;
-}
-
-.contact a:visited {
-    color: black;
-}
-
-.contact a:hover {
-    color: #F32631;
-    text-decoration: none;
-    top: 1px;
-}
-
 footer {
-    position: relative;
-    right: 30px;
+    position: fixed;
+    right: 4rem;
+    bottom: 0;
+    font-size: 90%;
 }
 
 footer ul li {
