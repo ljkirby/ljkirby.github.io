@@ -14,7 +14,7 @@ body {
     /*text style*/
     text-align: center;
     position: relative;
-    top: 30vh;
+    top: 10rem;
     right: 50px;
     /*font style*/
     font-family: 'Raleway Thin', Arial, Helvetica, sans-serif;
@@ -37,7 +37,7 @@ nav ul li {
     display: inline-flex;
     margin-left: 40px;
     margin-right: 40px;
-    font-size: 110%;
+    font-size: 1.2rem;
     font-weight: 900;
 }
 
@@ -61,19 +61,18 @@ nav a:visited {
 }
 
 .name h1 {
-    font-size: 700%;
-    padding-bottom: 20px;
+    font-size: 7rem;
+    padding-bottom: 2rem;
 }
 
 .description {
-    font-size: 120%;
     padding-bottom: 20px;
     position: relative;
     bottom: 40px;
 }
 
 #fadingDescription {
-    font-size: 200%;
+    font-size: 2.5rem;
     font-color: darkgray;
 }
 
