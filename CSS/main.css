@@ -154,7 +154,7 @@ footer a:visited:hover {
     background-image: url('../Images/practice3.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: bottom right;
     background-size: cover;
 }
 

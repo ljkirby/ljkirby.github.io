@@ -5,6 +5,7 @@ $(document).ready(function () {
 
     //array to hold fading in/out text
     var descriptionList = ['Web Designer', 'Software Developer', 'UBC Computer Engineering Major'];
+    
     var listLen = descriptionList.length;
     var i = 0;
 
