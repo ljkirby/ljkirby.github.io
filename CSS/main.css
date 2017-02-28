@@ -74,9 +74,9 @@ nav a:active {
 
 footer {
     position: fixed;
-    right: 4rem;
+    right:0;
     bottom: 0;
-    font-size: 90%;
+    
 }
 
 footer ul li {
@@ -121,7 +121,7 @@ footer a:visited:hover {
     background-image: url('../Images/practice3.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: center center;
     background-size: cover;
 }
 
