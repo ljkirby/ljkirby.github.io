@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    
+    $('.fadein').on('webkitAnimationEnd', function(e) {
+    $(this).addClass('visible');});
 
     //array to hold fading in/out text
     var descriptionList = ['Web Designer', 'Software Developer', 'UBC Computer Engineering Major'];

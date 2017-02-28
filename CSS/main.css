@@ -2,6 +2,43 @@
     font-family: 'Raleway Thin';
     src: url("../Fonts/Raleway_Thin.otf");
 }
+@import "compass/css3";
+
+@-webkit-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fadein{
+    opacity: 0;
+  
+  -webkit-animation-name: fade-in;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 2s;
+    
+}
+
+.background-image {
+  background: url('../Images/girlWithUmbrella_edit_cropped.png') no-repeat right bottom fixed;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+}
+
+.fadein.visible {
+  opacity: 1;
+}
 
 body {
     color: black;
@@ -14,12 +51,7 @@ body {
     right: 50px;
     /*font style*/
     font-family: 'Raleway Thin', Arial, Helvetica, sans-serif;
-    /*background image*/
-    background-image: url('../Images/girlWithUmbrella_edit_cropped.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: cover;
+   
 }
 
 nav {
@@ -57,6 +89,7 @@ nav a:active {
 }
 
 .name h1 {
+    position:relative;
     font-size: 7rem;
     padding-bottom: 2rem;
 }
