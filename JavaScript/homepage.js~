@@ -1,0 +1,36 @@
+
+var containers = document.getElementsByClassName('container');
+var setContainerDimensions = function() {
+	for(var i = 0; i < containers.length; i++){
+		containers[i].width = window.innerWidth;
+		containers[i].height = window.innerHeight;
+	}
+}
+setContainerDimensions();
+window.addEventListener('resize', function() {
+	setContainerDimensions();
+});
+/*
+$(document).ready(function () {
+    
+    $('.fadein').on('webkitAnimationEnd', function(e) {
+    $(this).addClass('visible');});
+
+    //array to hold fading in/out text
+    var descriptionList = ['Web Designer', 'Software Developer', 'UBC Computer Engineering Major'];
+    
+    var listLen = descriptionList.length;
+    var i = 0;
+
+    function fadingtext() {
+
+        $('#fadingDescription').delay(1000).fadeTo(1200, 0, function () {
+            $(this).text(descriptionList[++i % listLen]).fadeTo(1200, 0.7, fadingtext);
+        });
+    }
+
+    fadingtext();
+
+
+});
+*/
