@@ -9,17 +9,68 @@
     <meta name="description" content="Third year student majoring in Computer Engineering at UBC - currently seeking an internship for summer 2018.">
     <meta name="keywords" content="Lisa Kirby, website, CPEN, software, developer">
 
-    <!--jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="JavaScript/homepage.js"></script>
-
     <!--Main CSS code-->
-    <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/main.scss" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 
 <body>
-    <p>Website is currently undergoing some changes - please check back later :)</p>
+    <header id="top">
+        <nav>
+            <h3><a href="#top">Home</a></h3>
+            <h3><a href="#about">About</a></h3>
+            <h3><a target="_blank" href="Docs/Lisa_Kirby_Resume_August_2017.pdf">Resume</a></h3>
+            <h3><a href="https://github.com/ljkirby">Github</a></h3>
+            <!--
+            <h3><a href="#skills">skills</a></h3>
+            <h3><a href="#work">Work</a></h3>
+            <h3><a href="#contact">Contact</a></h3>
+            -->
+        </nav>
+        <div class="image">
+        <img id="laptop" src="Images/laptop2.svg">
+        <pre id="typewriter"><span class="var-highlight">var</span> person = {
+
+        name:   <span class="string-highlight">"Lisa Kirby"</span>,
+
+        status: <span class="string-highlight">"Computer Engineering Major"</span>,
+
+        school: <span class="string-highlight">"University of British Columbia"</span>,
+
+        likes: [<span class="string-highlight">"Programming"</span>,
+                <span class="string-highlight">"Key Lime Pie"</span>,
+                <span class="string-highlight">"Sleep"</span>];
+
+        }; 
+
+<span class="var-highlight">scrollDown();</span> </pre>
+        </div>
+    </header>
+
+    <div id="about" class="container">
+        <img id="monitorOnDesk" src="Images/monitor_on_desk_orange_white.svg">
+        <div class="shortBio">
+            <p>Hi there, my name is <span class="string-highlight">Lisa</span>!</p>
+        <p>I think <span class = "string-highlight">software and algorithms</span> are pretty dang <span class="string-highlight">cool</span>, and I am currently on the lookout for opportunities
+    to nerd out in a <span class="string-highlight">professional environment</span>.</p>
+    <p>Click <a href="Docs/Lisa_Kirby_Resume_August_2017.pdf" target="_blank" class="string-highlight">here</a> for my resume!
+        ☺</p>
+        </div>
+    </div>
+<!--
+    <div id="skills" class="container">
+        <div class="headingWithIcon">
+            <h3><img id="gears" src="Images/gears.svg"> Skills <img id="gears" src="Images/gears.svg"></h3>
+        </div>
+    </div>
+
+    <div id="work" class="container">
+    </div>
+
+    <div id="contact" class="container">
+    </div>
+-->
     <!--
     <div class = "background-image fadein"></div>
     <nav>
@@ -49,6 +100,8 @@
         </ul>
     </footer>
 -->
+<script type="text/javascript" src="JavaScript/typing.js"></script>
+<script type="text/javascript" src="JavaScript/smooth-scroll.js"></script>
 </body>
 
 </html>
