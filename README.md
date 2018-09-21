@@ -1,2 +1,3 @@
-# ljkirby7.github.io
+# ljkirby.com
+
 My personal website :)
